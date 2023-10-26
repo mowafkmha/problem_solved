@@ -41,6 +41,7 @@ while(n!=0)
     }
     else
     {
+        //co1=x1  and co2 = x2 // changed them because uva sucks and was telling me that x1 is declared before while its not!
         co1*=(n/g);  // this is x1 initial for the n
         co2*=(n/g);  // this is y1 initial for the n
         // but we only need the positive numbers so we have to solve the inquality for n
